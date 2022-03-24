@@ -1,0 +1,81 @@
+	body {
+		margin: 0;
+	}
+	
+	.background-section {
+
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	
+		
+	#links {
+		float: left;
+		width: 100%;
+		height: 10%;
+		background-color: pink;
+	}
+	
+	#first-photo {
+		float: left;
+		width: 100%;
+		height: 80%;
+		background-color: green;
+	}
+	
+	#heading-text {
+		float: left;
+		width: 100%;
+		height: 20%;
+		background-color: aqua;
+	}
+	
+	#scrolling-images {
+		float: left;
+		width: 100%;
+		height: 40%;
+		background-color: red;
+	}
+	
+	#main-text {
+		float: left;
+		width: 100%;
+		height: 30%;
+		background-color: yellow;
+	}
+	
+	#side-by-side {
+		float: left;
+		width: 100%;
+		height: 60%;
+	}
+	
+	#left-side {
+		float: left;
+		width: 50%;
+		height: 100%;
+		background-color: orange;
+	}
+	
+	#right-side {
+		float: right;
+		width: 50%;
+		height: 100%;
+		background-color: brown;
+	}
+	
+	#second-photo {
+		float: left;
+		width: 100%;
+		height: 40%;
+		background-color: blue;
+	}
+	
+	#contact {
+		float: left;
+		width: 100%;
+		height: 20%;
+		background-color: purple;
+	}
