@@ -10,12 +10,26 @@
 		background-size: cover;
 	}
 	
+	.covering-section {
+		min-height: 300px;
+		background-color: ;
+		padding: 0;
+	}
+	
+	.heading {
+		position: absolute;
+		top: 20%;
+		left: 35%;
+		font-size: 120px;
+	}
+
 		
 	#links {
 		float: left;
 		width: 100%;
-		height: 10%;
+		height: 9%;
 		background-color: pink;
+		position: fixed;
 	}
 	
 	#first-photo {
@@ -24,6 +38,7 @@
 		height: 80%;
 		background-color: green;
 	}
+	
 	
 	#heading-text {
 		float: left;
