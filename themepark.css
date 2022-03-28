@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Ramaraja&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+	
 	body {
 		margin: 0;
 	}
@@ -47,10 +50,10 @@
 		background-color: aqua;
 	}
 	
-	#scrolling-images {
+	#carousel {
 		float: left;
 		width: 100%;
-		height: 40%;
+		height: 70%;
 		background-color: red;
 	}
 	
@@ -96,3 +99,22 @@
 		height: 20%;
 		background-color: purple;
 	}
+	
+	h1 {
+		font-family: 'Ramaraja';
+	}
+	
+	h2 {
+		font-family: 'Quicksand';
+	}
+	
+	h3 {
+	}
+	
+	p {
+	}
+	
+	li {
+	}
+	
+	

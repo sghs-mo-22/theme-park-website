@@ -19,7 +19,8 @@
 		<h1> Welcome to Kiwi Kingdom! </h1>
 	</div>
 	
-	<div id="scrolling-images">
+	<div id="carousel">
+		<img src="frontpage1.jpg" width="1500px" height="550px">
 	</div>
 	
 	<div id="main-text">
@@ -29,14 +30,16 @@
 	
 	<div id="side-by-side">
 		<div id="left-side">
-		picture
+		<img src="reviews.jpg" height="500px" width="800px">
 		</div>
 		
 		<div id="right-side">
 			<h2> Why should you come to Kiwi Kingdom? Here’s some reviews from our guests: </h2>
-			<h3> Jacky = “I love going on the Haunted House ride, nothing like a good scare to help you remember you’re alive”☆☆☆☆☆
-				Simon = “I proposed to my wife at Kiwi Kingdom and she said yes!”☆☆☆☆
-				Bill = “It’s better than watching TV” ☆☆ </h3>
+			<ul> 
+				<li>Jacky = “I love going on the Haunted House ride, nothing like a good scare to help you remember you’re alive”☆☆☆☆☆ </li>
+				<li>Simon = “I proposed to my wife at Kiwi Kingdom and she said yes!”☆☆☆☆ </li>
+				<li>Bill = “It’s better than watching TV” ☆☆ </li>
+			</ul>
 		</div>
 	</div>
 	
@@ -46,5 +49,14 @@
 	<div id="contact">
 		<h2> Contact us on phone: 0272238248 | Contact us by email: kiwikingdom@gmail.com | Come visit us: 837 Red Cardinal Rd <h2>
 	</div>
+
+<script>
+	setTimeout( function () {
+		document.getElementById("carousel").innerHTML = '<img src="frontpage2.jpg" width="1500px" height="550px">';
+	}, 6000);
+	setTimeout( function () {
+		document.getElementById("carousel").innerHTML = '<img src="frontpage3.jpg" width="1500px" height="550px">';
+	}, 12000);
+</script>
 </body>
 </html>
