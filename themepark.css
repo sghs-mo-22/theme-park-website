@@ -27,12 +27,47 @@
 		color: 8ABD5F;
 		text-decoration: underline;
 	}
+	
+	.icon {
+			float: left;
+			padding-left: 40px;
+			padding-top: 10px;
+	}
+		
+	.link_button {
+		background-color: 609732;
+		color: 5c0709;
+		width: 33.33%;
+		float: left;
+		font-size: 30px;
+		text-align: center;
+		font-family: 'Quicksand';
+	}
+	
+	/* unvisited link */
+	a:link {
+		color: white;
+	}
 
+	/* visited link */
+	a:visited {
+		color: white;
+	}
+
+	/* mouse over link */
+	a:hover {
+		color: white;
+	}	
+
+	/* selected link */
+	a:active {
+		color: white;
+	}
 		
 	#links {
 		float: left;
 		width: 100%;
-		height: 9%;
+		height: 5%;
 		background-color: 609732;
 		position: fixed;
 	}
@@ -48,7 +83,7 @@
 	#heading-text {
 		float: left;
 		width: 100%;
-		height: 20%;
+		height: 30%;
 		background-color: 609732;
 	}
 	
@@ -105,12 +140,14 @@
 	h1 {
 		font-family: 'Ramaraja';
 		text-align: center;
-		font-size: 50px;
+		font-size: 90px;
 		color: 5c0709;
+		padding-right: 110px;
 	}
 	
 	h2 {
 		font-family: 'Quicksand';
+		font-size: 45px;
 		text-align: center;
 		color: eabab4;
 	}
@@ -124,6 +161,8 @@
 	}
 	
 	li {
+		font-family: 'Quicksand';
+		font-size: 27px;
 		color: eabab4;
 	}
 	
