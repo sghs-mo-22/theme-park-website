@@ -19,12 +19,21 @@
 		padding: 0;
 	}
 	
-	.heading {
+	.heading1 {
 		position: absolute;
 		top: 20%;
 		left: 35%;
 		font-size: 120px;
 		color: 8ABD5F;
+		text-decoration: underline;
+	}
+	
+	.heading2 {
+		position: absolute;
+		top: 20%;
+		left: 35%;
+		font-size: 120px;
+		color: 5c0709;
 		text-decoration: underline;
 	}
 	
@@ -79,6 +88,12 @@
 		background-color: 609732;
 	}
 	
+	#rides-first-photo {
+		float: left;
+		width: 100%;
+		height: 80%;
+		background-color: 609732;
+	}
 	
 	#heading-text {
 		float: left;
