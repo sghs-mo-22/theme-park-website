@@ -23,10 +23,10 @@
 		position: absolute;
 		top: 20%;
 		left: 35%;
-		font-size: 120px;
-		color: CECECE;
+		font-size: 110px;
+		color: white;
 		text-decoration: underline;
-		outline: 5px dotted #549431;
+		outline: 5px dashed #196600;
 		text-shadow: 4px 4px #549431;
 	}
 	
@@ -37,7 +37,7 @@
 		font-size: 120px;
 		color: CECECE;
 		text-decoration: underline;
-		outline: 5px dotted #549431;
+		outline: 5px dashed #196600;
 		text-shadow: 4px 4px #549431;
 	}
 	
@@ -46,9 +46,9 @@
 		top: 20%;
 		left: 35%;
 		font-size: 120px;
-		color: CECECE;
+		color: white;
 		text-decoration: underline;
-		outline: 5px dotted #549431;
+		outline: 5px dashed #196600;
 		text-shadow: 4px 4px #549431;
 	}
 	
@@ -178,7 +178,7 @@
 		font-family: 'Ramaraja';
 		text-align: center;
 		font-size: 90px;
-		color: 5c0709;
+		color: 196600;
 		padding-right: 110px;
 		text-shadow: 4px 4px white;
 	}
