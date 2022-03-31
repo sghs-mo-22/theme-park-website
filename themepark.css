@@ -24,8 +24,10 @@
 		top: 20%;
 		left: 35%;
 		font-size: 120px;
-		color: 8ABD5F;
+		color: CECECE;
 		text-decoration: underline;
+		outline: 5px dotted #549431;
+		text-shadow: 4px 4px #549431;
 	}
 	
 	.heading2 {
@@ -33,14 +35,27 @@
 		top: 20%;
 		left: 35%;
 		font-size: 120px;
-		color: 5c0709;
+		color: CECECE;
 		text-decoration: underline;
+		outline: 5px dotted #549431;
+		text-shadow: 4px 4px #549431;
+	}
+	
+	.heading3 {
+		position: absolute;
+		top: 20%;
+		left: 35%;
+		font-size: 120px;
+		color: CECECE;
+		text-decoration: underline;
+		outline: 5px dotted #549431;
+		text-shadow: 4px 4px #549431;
 	}
 	
 	.icon {
-			float: left;
-			padding-left: 40px;
-			padding-top: 10px;
+		float: left;
+		padding-left: 40px;
+		padding-top: 10px;
 	}
 		
 	.link_button {
@@ -165,6 +180,7 @@
 		font-size: 90px;
 		color: 5c0709;
 		padding-right: 110px;
+		text-shadow: 4px 4px white;
 	}
 	
 	h2 {
